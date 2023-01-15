@@ -79,13 +79,13 @@ Write code that will query the meta data of an instance within AWS or Azure or G
 I have used java/Maven code + Azure VM example to fetch metadata like vm size, version, os Type etc. 
 
 ** challenge-02 directory **
-
+```
 azure-metadata-json
     |--testAzureApp
         |------src
         |------target
         |------pom.xml
-
+```
 Navigate to App.java class in /main/java/com/azure folder 
 
 Step 1: create a service principal to create connection - 
