@@ -31,15 +31,15 @@ I have proposed a design to deploy the infra on Azure with the most cost efficie
 Includes modules approach to keep all the resources and call them n main.tf file
 
 ** challenge-01 directory **
-''''
+```
 tf
 |-- modules/            // The directory for sub modules.
 |-- main.tf             // The primary entrypoint for terraform resources.
 |-- _variables.tf       // It contain the declarations for variables.
 |-- _provider.tf        // The file which containes azure provider config.
 |-- terraform.tfvars    // The file to pass the terraform variables values.
+```
 
-''''
 A module is a container for multiple resources that are used together. Modules can be used to create lightweight abstractions, so that you can describe your infrastructure in terms of its architecture, rather than directly in terms of physical objects.
 
 For the solution, we have created and used five modules:
